@@ -1,0 +1,28 @@
+.logo{
+    height:90px;
+    width:90px;
+    margin-right: 5px;
+    margin-top:15px;
+}
+
+.albumheading{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 2rem ;
+    margin-top: 16px;
+ 
+}
+
+
+.navbar{
+    margin-top:-16px;
+    width:98%;
+    height:60px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(1, 1, 1) 0%, #816447 90% );
+    color:aliceblue;
+    padding :10px 1%;
+    position :fixed;
+    display:flex;
+    align-items: center;
+
+}

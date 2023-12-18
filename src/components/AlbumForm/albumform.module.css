@@ -1,0 +1,28 @@
+
+/* input box within the form */
+.input{
+    width: 55%;
+    margin: 0 2%;
+}
+
+/* buttons inside the form */
+.formBtn{
+    width: 100px;
+    margin: 0 2%;
+    height: 31px;
+    color: white;
+    font-size: 14px;
+}
+
+/* clear button */
+.clearBtn{
+    background-color:#f95d9b;
+    box-shadow: 10px 5px 5px rgb(80, 30, 71);
+}
+
+/* add button */
+.addBtn{
+    margin-top: 20px ;
+    background-color:#3235b9;
+    box-shadow: 10px 5px 5px rgb(52, 38, 100);
+}

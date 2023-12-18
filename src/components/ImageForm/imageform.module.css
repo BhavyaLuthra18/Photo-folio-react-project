@@ -1,0 +1,26 @@
+
+/* input box  */
+.inputBox{
+    width: 43%;
+    margin-right: 2%;    
+}
+
+/* buttons */
+.btn{
+    margin: 10px;
+    width: 100px;
+    height: 31px;
+    color: white;
+}
+
+/* add button */
+.add{
+    background-color: #2a3287;
+    box-shadow: 10px 5px 5px rgb(52, 38, 100);
+}
+
+/* clear button */
+.clear{
+    background-color:#ff414e;
+    box-shadow: 10px 5px 5px rgb(91, 39, 61);
+}
