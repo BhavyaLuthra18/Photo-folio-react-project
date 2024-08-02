@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../../photofolio/src/imagesFolder/images/background.jpg);
+  background-image: url(../src/imagesFolder/images/background.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
