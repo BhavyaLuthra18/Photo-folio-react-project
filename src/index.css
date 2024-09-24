@@ -1,66 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../src/imagesFolder/images/background.jpg);
+  background-image: url(../../photofolio/src/imagesFolder/images/bg1.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
- 
 }
-
 
 /* common style for all the heading tags  */
-h1{
-  color:#021619;
-  font-family: cursive;
-
-
+h1 {
+  color: #021619;
+  font-family: "Courier New", Courier, monospace;
 }
 
-
-
 /* common styles for all the buttons within the page */
-button{
+button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  box-shadow: 0 3px 8px rgba(0,0,0,.24);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
 }
 
-
 /* common styles for all the inputbox inside the page */
-input{
+input {
   border-radius: 2rem;
   border: none;
   padding-left: 15px;
-  margin-top: 50px ;
+  margin-top: 50px;
   font-weight: bold;
   height: 30px;
   background-color: #e1c3c8;
 }
 
-
 /* removing border from inputbox */
-input:focus{
+input:focus {
   outline: none;
 }
 
-
 /* for the form Container of album and image */
-.formContainer{
+.formContainer {
   text-align: center;
-  margin-top: 50px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
   height: 200px;
   width: 100%;
-  background-image: radial-gradient( circle 858.6px at 10% 20%, rgb(127 80 101) 0%, rgb(143 122 157) 90% );
+  background-image: radial-gradient(
+    circle 858.6px at 10% 20%,
+    rgb(7, 40, 187) 0%,
+    rgb(95, 87, 149) 90%
+  );
   border-radius: 10px;
-  box-shadow: rgba(63, 15, 46, 0.4) 5px 5px, rgba(78, 13, 55, 0.3) 10px 10px, rgba(122, 14, 82, 0.2) 15px 15px, rgba(129, 5, 67, 0.1) 20px 20px, rgba(55, 37, 48, 0.05) 25px 25px;
-  
 }
 
 /* lightbox styles */
@@ -86,7 +80,7 @@ input:focus{
 }
 
 /* close button of lightbox to hide image */
-.close-button{
+.close-button {
   position: absolute;
   top: 10px;
   padding: 5px 10px;

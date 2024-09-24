@@ -1,28 +1,41 @@
-
 /* input box within the form */
-.input{
-    width: 55%;
-    margin: 0 2%;
+.input {
+  width: 55%;
+  margin: 0 2%;
 }
 
 /* buttons inside the form */
-.formBtn{
-    width: 100px;
-    margin: 0 2%;
-    height: 31px;
-    color: white;
-    font-size: 14px;
+.formBtn {
+  width: 100px;
+  margin: 0 2%;
+  height: 31px;
+  color: white;
+  font-size: 14px;
 }
 
 /* clear button */
-.clearBtn{
-    background-color:#f95d9b;
-    box-shadow: 10px 5px 5px rgb(80, 30, 71);
+.clearBtn {
+  background-color: #f95d9b;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px rgb(80, 30, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
 }
 
 /* add button */
-.addBtn{
-    margin-top: 20px ;
-    background-color:#3235b9;
-    box-shadow: 10px 5px 5px rgb(52, 38, 100);
+.addBtn {
+  border-radius: 50px;
+  background-color: #3235b9;
+  box-shadow: 10px 5px 5px rgb(52, 38, 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+.createalbumcontainer {
+  display: flex;
+  justify-content: center;
 }

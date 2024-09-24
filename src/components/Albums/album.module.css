@@ -1,35 +1,40 @@
 /* album container */
-.cardContainer{
-    width: 180px;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-color: #777879;
-    padding: 5px 5px 0 5px;
-    color: white;
-    cursor: pointer;
+.cardContainer {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: #ded8d8;
+  padding: 5px 5px 0 5px;
+  color: white;
+  cursor: pointer;
 }
 
 /* album logo */
-.cardImage{
-    width: 100%;
-    height: 85%;
-    background-image: url("../../imagesFolder/images/albumCover.jpg");
-    background-size: cover;
+.cardImage {
+  width: 100%;
+  height: 85%;
+  background-image: url("../../imagesFolder/images/albumCover.jpg");
+  background-size: cover;
 }
 
 /* album name */
-.cardName{
-    width: 100%;
-    height: 15%;
-    font-weight: 700;
-    font-family: cursive;
+.cardName {
+  width: 100%;
+  height: 15%;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.cardContainer:hover{
-    background-color:#577fdb;
+.cardContainer:hover {
+  background-color: #577fdb;
+  scale: 1.1;
 }
