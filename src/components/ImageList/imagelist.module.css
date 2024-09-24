@@ -43,3 +43,18 @@
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+
+h1 {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, #ffffff, #9f9fa8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.5;
+}
