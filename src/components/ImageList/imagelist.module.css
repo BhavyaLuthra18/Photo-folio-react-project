@@ -1,56 +1,3 @@
-<<<<<<< HEAD
-
-/* button contaienr */
-.btnContainer{
-    height: auto;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* serach bar withing button container */
-.btnContainer input{
-    width: 50%;
-}
-
-/* buttons */
-.btn{
-    width: 90px;
-    height: 31px;
-    color: white;
-}
-
-/* back button */
-.backBtn{
-    float: left;
-    margin-top: 50px ;
-    background-color: #51d0de;
-    box-shadow: 10px 5px 5px rgb(126, 129, 133);
-}
-
-/* add image button */
-.addBtn{
-    float: right;
-    margin-top: 50px ;
-    background-color: #f44336;
-    box-shadow: 10px 5px 5px rgb(126, 45, 18);
-}
-
-
-/* imagelist containing all the image cards */
-.imageList{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
- h1{
-    background-color: rgb(198, 59, 59);
-    width: 500px ;
-    margin-left: 350px ;
-    box-shadow: -10px 10px 0px rgba(33, 33, 33, 1), -20px 20px 0px rgba(33, 33, 33, 0.7), -30px 30px 0px rgba(33, 33, 33, 0.4), -40px 40px 0px rgba(33, 33, 33, 0.1);
-}
- 
-=======
 /* button contaienr */
 .btnContainer {
   height: auto;
@@ -96,20 +43,3 @@
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-
-h1 {
-  width: 500px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  /* Gradient text effect */
-  background: linear-gradient(to bottom, #ffffff, #9f9fb1);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  opacity: 0.5;
-}
->>>>>>> a0e30d7 (Fixes and ui betterment)
